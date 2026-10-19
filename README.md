@@ -17,14 +17,14 @@
 
 ## 安装与使用
 
-1. 在下载页的 **Assets** 中下载 `Theresa-Garden-Setup-1.2.0.exe`，运行并选择安装位置。
+1. 在下载页的 **Assets** 中下载 `Theresa-Garden-Setup-1.3.0.exe`，运行并选择安装位置。
 2. 安装后直接打开软件，无需登录网站。资料、音乐和角色语音已随软件提供，可以离线浏览、播放。
 3. 如需 AI 对话，在软件设置中填写自己的 DeepSeek API 密钥。此功能需要网络和服务商额度；网络与服务可用性以你的实际连接为准。
 
 安装包约 147 MiB。当前没有数字签名，Windows 可能提示“未知发布者”。可在下载页取得 `SHA256SUMS.txt`，用 PowerShell 检查：
 
 ```powershell
-Get-FileHash .\Theresa-Garden-Setup-1.2.0.exe -Algorithm SHA256
+Get-FileHash .\Theresa-Garden-Setup-1.3.0.exe -Algorithm SHA256
 ```
 
 请从本仓库的正式发布页下载，并核对校验值。无需关闭系统安全防护。
